@@ -8,3 +8,4 @@ node_modules
 private-key.pem
 .glitch-assets
 shrinkwrap.yaml
+deploy_key.pem
