@@ -9,3 +9,4 @@ private-key.pem
 .glitch-assets
 shrinkwrap.yaml
 deploy_key.pem
+.travis
