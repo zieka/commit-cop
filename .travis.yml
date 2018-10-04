@@ -14,7 +14,7 @@ branches:
 stages:
     - test
     - name: release
-      if: branch = master AND type IN (push)
+      if: branch = master AND type IN (push) AND commit_message !~ /chore\(release\)/
 
 jobs:
     include:
@@ -26,3 +26,4 @@ jobs:
               script: npm run ci:deploy
               provider: script
               skip_cleanup: true
+              keep-history: true
