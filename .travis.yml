@@ -23,7 +23,7 @@ jobs:
         - stage: release
           node_js: lts/*
           deploy:
-              script: npm run ci:deploy && sh ./deploy.sh
+              script: sh ./deploy.sh
               provider: script
               skip_cleanup: true
               keep-history: true
