@@ -49,6 +49,6 @@
   },
   "devDependencies": {
     "prettier": "1.14.3",
-    "standard-version": "^4.4.0"
+    "standard-version": "4.4.0"
   }
 }
