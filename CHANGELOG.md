@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/zieka/commit-cop/compare/v1.0.1...v1.1.0) (2018-10-17)
+
+
+### Features
+
+* **deployment:** travis will now scale down zeit instances before aliasing and then scale the new i ([b3e3a81](https://github.com/zieka/commit-cop/commit/b3e3a81))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/zieka/commit-cop/compare/v1.0.0...v1.0.1) (2018-10-17)
 
