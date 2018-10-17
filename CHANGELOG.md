@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/zieka/commit-cop/compare/v0.1.0...v2.0.0) (2018-10-17)
+
+
+### Documentation
+
+* **cleanup:** ready for 1.0.0 ([#5](https://github.com/zieka/commit-cop/issues/5)) ([20de115](https://github.com/zieka/commit-cop/commit/20de115))
+
+
+### BREAKING CHANGES
+
+* **cleanup:** Out of beta
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/zieka/commit-cop/compare/v0.1.0...v1.0.0) (2018-10-04)
 
