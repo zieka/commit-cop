@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "cop that cracks down on your commits",
   "main": "index.js",
-  "files": [
-    "index.js",
-    "lib"
-  ],
   "scripts": {
     "ci:alias": "npx now alias --token=$NOW_TOKEN",
     "ci:build": "npx now -e APP_ID=$APP_ID -e WEBHOOK_SECRET=$WEBHOOK_SECRET -e NODE_ENV=production -e PRIVATE_KEY_BASE64=$PRIVATE_KEY_BASE64 --public --token=$NOW_TOKEN",
