@@ -15,8 +15,8 @@ Commit Cop looks for a conventional commit message in:
 
 Commit Cop will ignore characters up till the commit type:
 
-    - ✅ - "TICKET#12412312 feat(scope): my new feature"
-    - ✅ - "some stuff we prepend feat: my new feature"
+-   ✅ - "TICKET#12412312 feat(scope): my new feature"
+-   ✅ - "some stuff we prepend feat: my new feature"
 
 ## Installation
 
