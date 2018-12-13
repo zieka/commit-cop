@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/zieka/commit-cop/compare/v1.2.0...v1.3.0) (2018-12-13)
+
+
+### Features
+
+* adds check for semi-colon after breaking chgs ([#11](https://github.com/zieka/commit-cop/issues/11)) ([70d8b9e](https://github.com/zieka/commit-cop/commit/70d8b9e))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/zieka/commit-cop/compare/v1.1.0...v1.2.0) (2018-12-13)
 
