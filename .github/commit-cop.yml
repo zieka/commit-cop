@@ -3,4 +3,4 @@ requireCommits:
     - true
     - 'all'
 requirePrBreakingChangeColon: false
-requireCommitBreakingChangeColon: true
+requireCommitBreakingChangeColon: false
