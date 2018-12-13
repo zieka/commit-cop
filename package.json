@@ -33,7 +33,8 @@
   "dependencies": {
     "conventional-commit-types": "2.2.0",
     "parse-commit-message": "1.1.2",
-    "probot": "7.1.2"
+    "probot": "7.4.0",
+    "probot-config": "1.0.0"
   },
   "engines": {
     "node": "8"
