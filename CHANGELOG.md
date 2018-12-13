@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.4.6"></a>
+## [1.4.6](https://github.com/zieka/commit-cop/compare/v1.4.5...v1.4.6) (2018-12-13)
+
+
+### Bug Fixes
+
+* fixes inverted indicator for PR BR colon ([#20](https://github.com/zieka/commit-cop/issues/20)) ([efeadcb](https://github.com/zieka/commit-cop/commit/efeadcb))
+
+
+
 <a name="1.4.5"></a>
 ## [1.4.5](https://github.com/zieka/commit-cop/compare/v1.4.4...v1.4.5) (2018-12-13)
 
