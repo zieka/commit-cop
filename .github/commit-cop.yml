@@ -1,0 +1,6 @@
+	requireTitle: true
+  requireCommits:
+    - true
+    - 'all'
+	requirePrBreakingChangeColon: true
+	requireCommitBreakingChangeColon: true
