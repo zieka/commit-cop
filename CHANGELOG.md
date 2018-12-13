@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/zieka/commit-cop/compare/v1.3.2...v1.4.0) (2018-12-13)
+
+
+### Features
+
+* adds yml options ([#16](https://github.com/zieka/commit-cop/issues/16)) ([57898ee](https://github.com/zieka/commit-cop/commit/57898ee))
+
+
+
 <a name="1.3.2"></a>
 ## [1.3.2](https://github.com/zieka/commit-cop/compare/v1.3.1...v1.3.2) (2018-12-13)
 
