@@ -2,13 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.2"></a>
+## [1.3.2](https://github.com/zieka/commit-cop/compare/v1.3.1...v1.3.2) (2018-12-13)
+
+
+
+<a name="1.3.1"></a>
+## [1.3.1](https://github.com/zieka/commit-cop/compare/v1.3.0...v1.3.1) (2018-12-13)
+
+
+### Bug Fixes
+
+* better user experience for missing colon ([#13](https://github.com/zieka/commit-cop/issues/13)) ([6998ab0](https://github.com/zieka/commit-cop/commit/6998ab0))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/zieka/commit-cop/compare/v1.2.0...v1.3.0) (2018-12-13)
 
 
 ### Features
 
-* adds check for semi-colon after breaking chgs ([#11](https://github.com/zieka/commit-cop/issues/11)) ([70d8b9e](https://github.com/zieka/commit-cop/commit/70d8b9e))
+* adds check for colon after breaking chgs ([#11](https://github.com/zieka/commit-cop/issues/11)) ([70d8b9e](https://github.com/zieka/commit-cop/commit/70d8b9e))
 
 
 
