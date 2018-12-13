@@ -2,5 +2,5 @@ requireTitle: true
 requireCommits:
     - true
     - 'all'
-requirePrBreakingChangeColon: true
+requirePrBreakingChangeColon: false
 requireCommitBreakingChangeColon: true
