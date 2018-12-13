@@ -1,6 +1,6 @@
 {
   "name": "commit-cop",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "description": "cop that cracks down on your commits",
   "main": "index.js",
   "files": [
