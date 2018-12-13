@@ -1,6 +1,4 @@
-requireTitle: false
-requireCommits:
-    - true
-    - 'all'
-requirePrBreakingChangeColon: false
-requireCommitBreakingChangeColon: false
+requireTitle: true
+requireCommits: 'all'
+requirePrBreakingChangeColon: true
+requireCommitBreakingChangeColon: true
