@@ -18,7 +18,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* adds check for semi-colon after breaking chgs ([#11](https://github.com/zieka/commit-cop/issues/11)) ([70d8b9e](https://github.com/zieka/commit-cop/commit/70d8b9e))
+* adds check for colon after breaking chgs ([#11](https://github.com/zieka/commit-cop/issues/11)) ([70d8b9e](https://github.com/zieka/commit-cop/commit/70d8b9e))
 
 
 
