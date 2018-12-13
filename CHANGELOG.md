@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.4.7"></a>
+## [1.4.7](https://github.com/zieka/commit-cop/compare/v1.4.6...v1.4.7) (2018-12-13)
+
+
+### Bug Fixes
+
+* breaking changes inidicators now display ([#21](https://github.com/zieka/commit-cop/issues/21)) ([e5318b6](https://github.com/zieka/commit-cop/commit/e5318b6))
+
+
+
 <a name="1.4.6"></a>
 ## [1.4.6](https://github.com/zieka/commit-cop/compare/v1.4.5...v1.4.6) (2018-12-13)
 
