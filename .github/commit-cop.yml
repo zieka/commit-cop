@@ -1,4 +1,4 @@
 requireTitle: true
-requireCommits: 'some'
+requireCommits: 'all'
 requirePrBreakingChangeColon: true
 requireCommitBreakingChangeColon: true
