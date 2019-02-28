@@ -32,7 +32,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "conventional-commit-types": "2.2.0",
-    "parse-commit-message": "1.1.2",
+    "parse-commit-message": "3.2.3",
     "probot": "7.4.0",
     "probot-config": "1.0.0"
   },
