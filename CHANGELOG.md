@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/zieka/commit-cop/compare/v1.4.9...v1.5.0) (2019-02-28)
+
+
+### Features
+
+* add requireJira to enforce prepended jira tickets ([#24](https://github.com/zieka/commit-cop/issues/24)) ([2a8cbe1](https://github.com/zieka/commit-cop/commit/2a8cbe1))
+
+
+
 <a name="1.4.9"></a>
 ## [1.4.9](https://github.com/zieka/commit-cop/compare/v1.4.8...v1.4.9) (2019-02-06)
 
