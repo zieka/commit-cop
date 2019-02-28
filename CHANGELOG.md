@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/zieka/commit-cop/compare/v1.5.4...v1.6.0) (2019-02-28)
+
+
+### Features
+
+* activate requireJira ([#31](https://github.com/zieka/commit-cop/issues/31)) ([111051d](https://github.com/zieka/commit-cop/commit/111051d))
+
+
+
 <a name="1.5.4"></a>
 ## [1.5.4](https://github.com/zieka/commit-cop/compare/v1.5.3...v1.5.4) (2019-02-28)
 
