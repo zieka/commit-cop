@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/zieka/commit-cop/compare/v1.5.0...v1.5.1) (2019-02-28)
+
+
+### Bug Fixes
+
+* commits without BC will no longer fail ([#26](https://github.com/zieka/commit-cop/issues/26)) ([fd458c1](https://github.com/zieka/commit-cop/commit/fd458c1))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/zieka/commit-cop/compare/v1.4.9...v1.5.0) (2019-02-28)
 
