@@ -4,29 +4,34 @@
 
 > GitHub status check that ensures your pull requests follow the Conventional Commits spec
 
-Enforces [conventional commit messages](https://conventionalcommits.org)
+Enforces [conventional commit messages](https://conventionalcommits.org) with a twist on what is prepended (see below)
 
 ## Installation
 
-👉 [github.com/apps/commit-cop](https://github.com/apps/commit-cop)
+[github.com/apps/commit-cop](https://github.com/apps/commit-cop)
 
 ## How it works
 
 Commit Cop looks for a conventional commit message in:
 
 1. the PR title
-2. some PR commit
+2. some or all PR commit
 
 Commit Cop will ignore characters up till the commit type:
 
--   ✅ - "TICKET#12412312 feat(scope): my new feature"
--   ✅ - "some stuff we prepend feat: my new feature"
+-   ✅ - "TICKET#12412312 feat(scope): subject"
+-   ✅ - "some stuff we prepend feat: subject"
 
 Commit Cop also makes sure a BREAKING CHANGE is followed by a colon `:`
 It will enforce this is both:
 
 1. the PR body
 2. any commit message
+
+Commit Cop can also be configured to ensure that JIRA tickets are prepended:
+
+-   ✅ - "ABCD-1234 - feat(scope): subject"
+-   ✅ - "ABCD-5678 - feat: subject"
 
 All features can be toggled by **optionally** adding a `commit-cop.yml` file to the `.github` directory of your repo:
 
@@ -35,6 +40,7 @@ requireTitle: true
 requireCommits: 'some'
 requirePrBreakingChangeColon: true
 requireCommitBreakingChangeColon: true
+requireJira: false
 ```
 
 ### requireTitle - `boolean`
@@ -54,6 +60,12 @@ requireCommitBreakingChangeColon: true
 ### requireCommitBreakingChangeColon - `boolean`
 
 -   Set to true to require BREAKING CHANGE found in the any commit message to be followed by a colon `:`
+
+### requireJira - `boolean`
+
+-   Set to true to require a jira ticket be prepended to the commit message in the ALPHACAPS-number format: "WORD-1234 - "
+    -   ✅ - "DEV-111 - feat(scope): subject"
+    -   ✅ - "DEV-4234 - feat: subject"
 
 ## License
 
