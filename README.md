@@ -17,11 +17,6 @@ Commit Cop looks for a conventional commit message in:
 1. the PR title
 2. some or all PR commit
 
-Commit Cop will ignore characters up till the commit type:
-
--   ✅ - "TICKET#12412312 feat(scope): subject"
--   ✅ - "some stuff we prepend feat: subject"
-
 Commit Cop also makes sure a BREAKING CHANGE is followed by a colon `:`
 It will enforce this in both:
 
@@ -33,6 +28,11 @@ Commit Cop can also be configured to ensure that JIRA tickets are prepended:
 -   ✅ - "ABCD-1234 - feat(scope): subject"
 -   ✅ - "ABCD-5678 - feat: subject"
 
+If JIRA tickets are not required then Commit Cop will ignore characters up till the commit type:
+
+-   ✅ - "TICKET#12412312 feat(scope): subject"
+-   ✅ - "some stuff we prepend feat: subject"
+
 All features can be toggled by **optionally** adding a `commit-cop.yml` file to the `.github` directory of your repo:
 
 ```yml
@@ -43,15 +43,17 @@ requireCommitBreakingChangeColon: true
 requireJira: false
 ```
 
+Note: ☝️ those are the defaults
+
 ### requireTitle - `boolean`
 
 -   Set to true to require the title of your PR to be enforced
 
-### requireCommits - `none` | `some` | `all`
+### requireCommits - `'none'` | `'some'` | `'all'`
 
--   Set to `some` to require at least 1 of the original commits to be enforced (good for squashes).
--   Set to `all` to have all commits in the PR enforced (good for merges)
--   Set to `none` to not have commits enforced
+-   Set to `'some'` to require at least 1 of the original commits to be enforced (good for squashes).
+-   Set to `'all'` to have all commits in the PR enforced (good for merges)
+-   Set to `'none'` to not have commits enforced
 
 ### requirePrBreakingChangeColon - `boolean`
 
