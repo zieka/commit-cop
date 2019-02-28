@@ -4,7 +4,7 @@
 
 > GitHub status check that ensures your pull requests follow the Conventional Commits spec
 
-Enforces [conventional commit messages](https://conventionalcommits.org) with a twist on what is prepended (see below)
+Enforces what commits should look like 👀
 
 ## Installation
 
@@ -12,7 +12,7 @@ Enforces [conventional commit messages](https://conventionalcommits.org) with a 
 
 ## How it works
 
-Commit Cop looks for a conventional commit message in:
+Commit Cop looks for a [conventional commit](https://conventionalcommits.org) format **in**:
 
 1. the PR title
 2. some or all PR commit
