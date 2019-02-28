@@ -23,7 +23,7 @@ Commit Cop will ignore characters up till the commit type:
 -   ✅ - "some stuff we prepend feat: subject"
 
 Commit Cop also makes sure a BREAKING CHANGE is followed by a colon `:`
-It will enforce this is both:
+It will enforce this in both:
 
 1. the PR body
 2. any commit message
