@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/zieka/commit-cop/compare/v1.6.0...v2.0.0) (2019-03-01)
+
+
+### Features
+
+* default requireJira to true ([#33](https://github.com/zieka/commit-cop/issues/33)) ([b6b34b8](https://github.com/zieka/commit-cop/commit/b6b34b8))
+
+
+### BREAKING CHANGES
+
+* requireJira is true by default now, opt out using commit-cop.yml
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/zieka/commit-cop/compare/v1.5.4...v1.6.0) (2019-02-28)
 
